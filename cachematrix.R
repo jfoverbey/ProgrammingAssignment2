@@ -1,5 +1,5 @@
 ## 2/22/2015
-## My Poor attempt to solve this problem returning the inverse of a matrix
+## Attempt to solve this problem returning the inverse of a matrix.  Will pull from cache if already exists
 ## makeCacheMatrix: replace the mean function from example with solve for the inverse
 ## cacheSolve: call my getinverse and setinverse functions in makeCacheMatrix 
 ## to return the inverse if it is cached if not then get the inverse and cached it
@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
         getinverse <- function() m
         list(set = set, get = get,
              setinverse = setinverse,
-             getmean = getinverse)
+             getinverse = getinverse)
 }
 
 
